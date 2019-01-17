@@ -1,0 +1,1849 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coinet</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Coinet financing platform"/>
+        <meta name="language" content="english">
+        <meta name="robots" content="index, follow">
+        <meta name="keywords" content="coinet, ico, financing, criptomoneda, cryptocurrency, blockchain, stellar">
+
+        <link rel="icon" href="../assets/images/general/iso.png?version=2" type='image/png'>
+        <link rel="apple-touch-icon-precomposed" href="../assets/images/coinet-logos/imagotipo_Coinet_H_Transparente.png" type='image/png'>
+
+        <!--STYLES-->
+        <link rel="stylesheet" href="../assets/styles/bootstrap-formhelpers.min.css">
+        <link rel="stylesheet" href="../assets/styles/bootstrap/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../assets/styles/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/admin.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/airdrop-conditions.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/buy.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/chat-admin.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/chat-user.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-contact.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-foundation.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-ico-advantage.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-ico-header.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-ico-list.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-ico-roadmap.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-investment.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-power.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-projects.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-team.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/dashboard.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/footer.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/general.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/login-register.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/modal-request.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/modal-services.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/modal-terms.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/navbar-header.css">
+        <link rel="stylesheet" href="../assets/styles/datatables/datatables.min.css">
+        <link rel="stylesheet" href="../assets/styles/font-awesome/font-awesome.min.css">
+        <link rel="stylesheet" href="../assets/styles/fonts/montserrat.css">
+        <link rel="stylesheet" href="../assets/styles/fonts/raleway.css">
+        <link rel="stylesheet" href="../assets/styles/fonts/roboto.css">
+        <!--STYLES END-->
+    </head>
+
+    <body>
+        <nav class="navbar navbar-custom navbar-fixed-top" id="mainNav">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="brand js-scroll-trigger" href="../index-english.html"> <img class="pull-left icon-nav" src="../assets/images/navbar-header/logo-coinet@3x.png" alt="Coinet"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="js-scroll-trigger" href="#coinet-ico"> ICO </a></li>
+                        <li><a class="js-scroll-trigger" href="#coinet-token"> TOKEN </a></li>
+                        <li><a class="js-scroll-trigger" href="#coinet-ico-advantage"> PLATFORM</a></li>
+                        <li><a class="js-scroll-trigger" href="#coinet-team"> TEAM </a></li>
+                        <li><a class="js-scroll-trigger" href="#coinet-ico-roadmap"> ROADMAP </a></li>
+                        <li><a href="#modal-login" data-toggle="modal"> LOGIN </a></li>
+                        <li>
+                            <p class="navbar-btn">
+                                <a href="#modal-register" data-toggle="modal" class="btn">GET TOKENS</a>
+                            </p>
+                        </li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="../assets/images/navbar-header/uk-img.png" alt="English"> <span class="caret"></span></a>
+                          <ul class="dropdown-menu" role="menu">
+                            <li><a href="./index.html"><img src="../assets/images/navbar-header/espa-ol-img.png" alt="Español"> ESPAÑOL</a></li>
+                            <li><a href="./index-english.html"><img src="../assets/images/navbar-header/uk-img.png" alt="English"> ENGLISH</a></li>
+                          </ul>                
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header id="coinet-ico">
+            <div class="container-fluid">
+                <div id="waiting_time">
+                    <div class="row margin-top-prom margin-bottom-min hidden-xs">
+                        <div class="col-xs-12 col-sm-10 col-md-3 col-sm-offset-1 col-xs-offset-0">
+                            <div class="intro-lead">
+                                <h3 id="ico-title"><span>ICO {</span><span class="blue-word">COT</span><span>}</span></h3>   
+                            </div>
+                        </div>                  
+                        <div class="col-xs-4 col-sm-2 col-md-1 col-md-offset-0 col-sm-offset-1 col-xs-offset-2 text-align-center">
+                            <span id="months" class="time-numbers">01</span>   
+                            <span class="ico-text-little">MONTHS</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-2 col-md-1 text-align-center">
+                            <span id="days" class="time-numbers">12</span>
+                            <span class="ico-text-little">DAYS</span>
+                        </div>
+                        <div class="col-sm-2 col-md-1 text-align-center">
+                            <span id="hours" class="time-numbers">08</span> 
+                            <span class="ico-text-little">HOURS</span>
+                        </div>
+                        <div class="col-sm-2 col-md-1 text-align-center">
+                            <span id="minutes" class="time-numbers">30</span>
+                            <span class="ico-text-little">MIN</span>
+                        </div>
+                        <div class="col-sm-2 col-md-1 text-align-center">
+                            <span id="seconds" class="time-numbers blue-word">45</span>
+                            <span class="ico-text-little blue-word">SEC</span>
+                        </div>
+                        <div class="col-md-2 hidden-xs hidden-sm">
+                            <a href="#modal-register" data-toggle="modal" class="btn button-reserve">GET TOKENS</a>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-prom equal hidden-xs hidden-sm">
+                        <div class="col-xs-10 col-md-2 col-xs-offset-1">
+                            <span id="wait-ico-en" class="ico-text-little"> OPENING </span>
+                        </div>
+                        <div class="col-xs-10 col-md-7 col-md-offset-0 col-xs-offset-1">
+                            <div class="progress litle margin-top-fix">
+                                <div id="waiting_bar" class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </div>                 
+                        <div class="col-xs-10 col-md-2 col-md-offset-0 col-xs-offset-1">
+                            <span id="close-ico-en" class="ico-text-little"> CLOSING </span>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-prom equal hidden-xs hidden-md hidden-lg">
+                        <div class="col-sm-10 hidden-md hidden-lg text-align-center col-md-offset-0 col-xs-offset-1">
+                            <a href="#modal-register" data-toggle="modal" class="btn button-reserve">GET TOKENS</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="intro-text">
+                   <div class="row row-centered margin-bottom-min">
+                        <div class="col-xs-10 col-sm-8 col-centered text-align-center">
+                            <div class="row row-centered">
+                                <div class="col-xs-12 col-centered text-align-center">
+                                    <div class="intro-lead ">
+                                        <h1><span>INVEST </span>{<span class="blue-word">SAFELY</span>}</h1> 
+                                    </div>
+                                    <div class="intro-ico-description hidden-xs margin-top-prom">
+                                        <p>So far you know the project from the ICO, COINET allows you </p> 
+                                        <p>to know the project before the Whitepaper</p>
+                                    </div>
+                                    <div class="row row-centered margin-top-prom margin-bottom-prom">
+                                        <span class="btn-text-video"> <a class="btn-style margin-bottom-prom" href="../whitePaper/index-english.html" target="_blank"> WHITEPAPER </a></span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row equal margin-top-prom margin-bottom-prom hidden-xs"> 
+                        <div class="col-xs-12 col-sm-6 col-md-3 text-align-center line-numbers border-box-job">
+                            <div class="padding-box-job">
+                                <div class="element1"> 
+                                     <span class="info-token"> TOKEN <br> abbreviation</span>
+                                </div>
+                                <div class="element2"> 
+                                    <p class="text-25px"> COT</p>
+                                </div>
+                            </div> 
+                        </div>
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-3 text-align-center line-numbers border-box-job">
+                            <div class="padding-box-job">
+                                <div class="element1"> 
+                                    <p class="text-16px">Supply</p>
+                                </div>
+                                <div class="element2">
+                                    <p class="text-25px">10.000.000</p>
+                                </div>
+                                <div class="element1"> 
+                                    <span class="info-token">COT</span>
+                                </div>
+                                <p class="supply-text-description"> New coins will not be created </p>
+                            </div> 
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-3 text-align-center line-numbers border-box-job">
+                            <div class="padding-box-job">
+                                <div class="element1"> 
+                                     <p class="text-16px">Network</p>
+                                </div>
+                                <div class="element1"> 
+                                    <img class="stellar-ico" src="../assets/images/coinet-ico/stellar-ico.png" alt="Stellar">
+                                </div>
+                                <div class="element2"> 
+                                    <p class="text-25px"> Stellar</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-3 text-align-center border-box-job">
+                            <div class="padding-box-job">
+                                <div class="element1"> 
+                                    <p class="text-16px">SCP</p>
+                                </div>
+                                <div class="element2"> 
+                                    <span class="info-token">Stellar Consensus Protocol</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="main">
+            <section id="coinet-token">
+                <div class="container">
+                    <div class="row row-centered margin-top-min">
+                        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                            <div class="text-container">
+                                <span class="title-behind-power">token</span>
+                                <div class="text-container-hover text-container-hover-title">
+                                    <span class="title-container">DISTRIBUTION{<span class="blue-word">COINET</span>}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="row margin-top-prom hidden-xs">
+                        <div class="hidden-xs hidden-sm col-md-3 col-md-offset-1 text-15px">
+                            <p><b>PRIVATE SALE</b></p>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 text-15px">
+                            <p class="text-align-right">SOFT CAP <span class="dollars-text hidden-xs">  400.000 COT </span></p>
+                            <div class="arrow-down margin-bottom-min float-right"></div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-md-offset-0 col-sm-offset-2 col-xs-offset-0 text-15px">
+                            <p class="text-align-right">HARD CAP <span class="hidden-xs">4 MILLIONS COT</span></p>
+                            <div class="arrow-down float-right"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="row hidden-xs">
+                        <div class="hidden-xs hidden-sm col-md-3 col-md-offset-1 text-15px">
+                            <p class="sale-descrip">Private sale of Tokens corresponds to 15% of the Supply. Private Investors will have a discount between 40% and 60% depending on the amount of COT Coins purchased, for more information sign up and email us to <span class="blue-word">sale@coinet.network</span> requesting the conditions that apply.</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-10 col-md-6 col-xs-offset-0 col-sm-offset-1 col-md-offset-0">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row margin-top-prom hidden-sm hidden-md hidden-lg">
+                        <div class="col-xs-12 text-15px text-align-center margin-top-max">
+                            <p><b>PRIVATE SALE</b></p>
+                        </div>
+                        <div class="col-xs-12 text-align-center margin-bottom-max">
+                            <p class="sale-descrip">Private sale of Tokens corresponds to 15% of the Supply. Private Investors will have a discount between 40% and 60% depending on the amount of COT Coins purchased.</p>
+                        </div>
+                    </div>
+
+                    <div class="row margin-top-prom margin-bottom-prom equal text-align-center">
+                        <div class="col-xs-12 col-sm-6 col-md-2 col-md-offset-1 col-sm-offset-0 col-xs-offset-0 border-box-job">
+                            <div class="padding-box-job">
+                                <p class="text-15px"> <b>TOKEN SALE (COT)</b></p>
+                                <p class="text-12px"> 1 COT = 0.5 $ (USD)</p>
+                                <p class="text-12px"> JUNE  22 -  JULY 28  2018 </p><br>
+                                <p class="text2-12px"> <img src="../assets/images/general/iso.png" alt="Icon"> <b> MINIMUM TRANSACTION AMOUNT </b></p>
+                                <p class="btc-text"> 0.01 BTC</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-2 blue-rectangle">
+                            <div class="padding-box-job">
+                                <p class="text-15px"><b> LAUNCHING</b></p>
+                                <p class="text2-12px"> JUNE 22 TO JUNE 27 </p>
+                                <br>
+                                <p class="text-15px"> 1 COT = 0.4$ (USD)</p>
+                                <br>
+                                <div class="margin-top-prom">
+                                    <a class="btn-style" href="#modal-register" data-toggle="modal"> GET </a>
+                                </div>
+                                <br>
+                                <p class="margin-top-prom text-7px"> IMPORTANT: Once the date of sale of COTs for each Stage has elapsed, it will not be possible to take advantage of the previous offer.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-2 border-box-job">
+                            <div class="padding-box-job">
+                                <p class="text-15px"><b> STAGE 2</b></p>
+                                <p class="text2-12px"> JUNE 28 TO JULY 03 </p>
+                                <br>
+                                <p class="text-15px"> 1 COT = 0.45$ (USD)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-2 border-box-job">
+                            <div class="padding-box-job">
+                                <p class="text-15px"><b> STAGE 3</b></p>
+                                <p class="text2-12px"> JULY 04 TO JULY 10 </p>
+                                <br>
+                                <p class="text-15px"> 1 COT = 0.475$ (USD)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-xs-12 col-sm-12 col-md-2">
+                            <div class="padding-box-job">
+                                <p class="text-15px"><b> CLOSING</b></p>
+                                <p class="text2-12px"> JULY 11 TO NOVEMBER 28</p>
+                                <br>
+                                <p class="text-15px"> 1 COT = 0.5$ (USD)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="coinet-ico-list">
+                <div class="container">
+                    <div class="row row-centered margin-top-prom">
+                        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                            <div class="text-container">
+                                <span class="title-behind-power">ico-list</span>
+                                <div class="text-container-hover text-container-hover-title">
+                                    <span class="title-container">WEBSITES</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row margin-top-prom">
+                        <div class="col-xs-12 col-sm-6 col-md-4 margin-bottom-prom">
+                            <a href="https://icobench.com/ico/coinet" target="_blank"><img class="img-responsive center" src="../assets/images/coinet-ico/icobench.png" alt="icobench"></a>
+                        </div>
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-4 margin-bottom-prom">
+                            <a href="https://icoholder.com/en/coinet-22125" target="_blank"><img class="img-responsive center" src="../assets/images/coinet-ico/icoholder.png" alt="icoholder"></a>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4 margin-bottom-prom">
+                            <a href="https://icowatchlist.com/ico/coinet" target="_blank"><img class="img-responsive center" src="../assets/images/coinet-ico/icowatchlist.png" alt="icowatchlist"></a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 margin-bottom-prom">
+                            <a href="https://www.trackico.io/ico/coinet/" target="_blank"><img class="img-responsive center" src="../assets/images/coinet-ico/trackico.png" alt="trackico"></a>
+                        </div>
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-4 margin-bottom-prom">
+                            <a href="https://icopanic.com/#1519813062899-5e79a12d-f827" target="_blank"><img class="img-responsive center" src="../assets/images/coinet-ico/icopanic.png" alt="icopanic"></a>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4 margin-bottom-prom">
+                            <a href="https://www.icoalert.com/?q=Coine&is_v=1" target="_blank"><img class="img-responsive center" src="../assets/images/coinet-ico/icoalert.png" alt="icoalert"></a>
+                        </div>
+                    </div>
+
+                    <div class="row equal text-align-center">
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-4 col-sm-offset-3 col-xs-offset-0 margin-bottom-prom">
+                            <a href="https://www.criptonoticias.com/mercado-cambiario/coinet-plataforma-facilitar-financiamiento-emprendimientos-blockchain/" target="_blank"><img class="img-responsive center" src="../assets/images/coinet-ico/criptonoticias-en.png" alt="trackico"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="coinet-ico-advantage">
+                <div class="container">
+                    <div class="row row-centered margin-top-prom margin-bottom-max">
+                        <div class="col-xs-12">
+                            <div class="text-container-over-behind">
+                                <span class="title-behind-team"> platform</span>
+                                <div class="text-container-hover text-container-hover-title">
+                                     <span class="title-container">ADVANTAGES OF {<span class="blue-word">CFP</span>}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="margin-bottom-prom">
+                        <div class="row equal center-vertical-text margin-bottom-min hidden-xs">
+                            <div class="col-sm-4 col-sm-offset-1 col-xs-offset-0 text-align-right">
+                                <span class="roles-text">ENTREPRENEUR</span>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="text-container-over-behind">
+                                    <img class="img-roles center" src="../assets/images/coinet-ico/silver-coin.png" alt="ICO">
+                                    <div class="text-container-hover text-container-hover-line">
+                                        <hr class="line-roles">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <span class="roles-text">INVESTOR</span>
+                            </div>
+                        </div>
+                        <div class="row equal">
+                            <div class="col-sm-5 col-sm-offset-1 text-align-center advantages-text-container advantages-container-border-r advantages-container-border-b advantages-container-border-dot">
+                                <span class="roles-text hidden-sm hidden-md hidden-lg margin-bottom-min text-align-center">ENTREPRENEUR</span>
+                                <span class="advantages-text">You just have to make an effort to have a great project. The funds you need to make it known are acquired in the COINET Financing PLATFORM.</span>
+                            </div>
+                            <div class="col-sm-5 text-align-center advantages-text-container advantages-container-border-b">
+                                <span class="roles-text hidden-sm hidden-md hidden-lg margin-bottom-min text-align-center">INVESTOR</span>
+                                <span class="advantages-text">So far you know and invest in the project from the ICO. COINET Financing PLATFORM allows you to know and invest in the project before the Whitepaper.</span>
+                            </div>
+                        </div>
+                        <div class="row equal">
+                            <div class="col-xs-6 col-sm-3 col-sm-offset-1 col-xs-offset-0 text-align-center advantages-container advantages-container-border-r advantages-container-border-b">
+                                <a data-toggle="modal" href="#evaluation-and-advice" class="advantages">Evaluation and consultation of potential projects without cost</a>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-align-center advantages-container advantages-container-border-r advantages-container-border-b">
+                                <a data-toggle="modal" href="#p2p" class="advantages"> P2P Platform</a>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 text-align-center advantages-container advantages-container-border-b">
+                                <a data-toggle="modal" href="#proof-and-source" class="advantages">Proof and Source System</a>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 col-sm-offset-1 col-xs-offset-0 text-align-center advantages-container advantages-container-border-r">
+                                <a data-toggle="modal" href="#protection-and-security" class="advantages">Security and Protection</a>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-align-center advantages-container advantages-container-border-r">
+                                <a data-toggle="modal" href="#high-low" class="advantages">High speed at low cost</a>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 text-align-center advantages-container">
+                                <a data-toggle="modal" href="#bifrost" class="advantages">Bifrost from Stellar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row margin-top-min margin-bottom-prom hidden-xs">
+                        <div class="col-sm-10 col-sm-offset-1 margin-top-min margin-bottom-prom">
+                            <div id="distribution">
+                                <img src="../assets/images/coinet-team/tortas_coinet-en.jpg" alt="Distribution" class="width-100">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-10 col-sm-offset-1 margin-top-min">
+                            <div id="CFP_carousel" class="carousel slide width-100" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#CFP_carousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#CFP_carousel" data-slide-to="1"></li>
+                                    <li data-target="#CFP_carousel" data-slide-to="2"></li>
+                                    <li data-target="#CFP_carousel" data-slide-to="3"></li>
+                                    <li data-target="#CFP_carousel" data-slide-to="4"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="../assets/images/coinet-team/CFP_1.jpg" alt="CFP 1" class="width-100">
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="../assets/images/coinet-team/CFP_2.png" alt="CFP 2" class="width-100">
+                                    </div>
+                                
+                                    <div class="item">
+                                        <img src="../assets/images/coinet-team/CFP_3.png" alt="CFP 3" class="width-100">
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="../assets/images/coinet-team/CFP_4.png" alt="CFP 4" class="width-100">
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="../assets/images/coinet-team/CFP_5.png" alt="CFP 5" class="width-100">
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" href="#CFP_carousel" data-slide="prev">
+                                  <span class="glyphicon glyphicon-chevron-left"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#CFP_carousel" data-slide="next">
+                                  <span class="glyphicon glyphicon-chevron-right"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-centered margin-top-prom margin-bottom-max">
+                        <div class="col-xs-12">
+                            <div class="text-container-over-behind">
+                                <span class="title-behind-team">evolution</span>
+                                <div class="text-container-hover text-container-hover-title">
+                                     <span class="title-container">DAICO {<span class="blue-word">CFP</span>}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="margin-bottom-prom">
+                        <div class="row equal center-vertical-text margin-bottom-min">
+                            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-xs-offset-0">
+                                <p class="evolution-text margin-bottom-prom">It is an improvement in the ICO fundraising model that incorporates certain aspects of DAO. The idea was suggested by <span class="evolution-text-bold"> Vitalik Buterin</span> in January 2018 and aims to make the ICO safer by involving investors in the initial process of project development. It will also allow the tokens' holders to vote for the refund of the contributed funds if they are not happy with the progress made by the developers.</p>
+                                <p class="evolution-text margin-bottom-prom">For projects that implement the concept <span class="evolution-text-bold">DAICO</span>, it will force a level of responsibility on the part of the developers and give the token holders more peace of mind that they are guaranteed to see at least a minimum viable product or recover their money.</p>
+                                <p class="evolution-text margin-bottom-prom"><a href="https://cointelegraph.com/explained/what-is-a-daico-explained" class="blue-word" target="_blank">https://cointelegraph.com/explained/what-is-a-daico-explained</a></p>
+                                <p class="evolution-text margin-bottom-prom hidden-xs"><span class="blue-word-bold">COINET</span> believes in self-regulation and in the technological systems that allow it to be executed. We have not done anything until now if third party regulations limit mechanisms with as much potential for the development and advance of projects as the ICO. <span class="evolution-text-other">CFP has the spirit of DAICO and intends to put control in the hands of investors to completely mitigate the risk of ICO scams where developers make a symbolic sale and then escape with the money as soon as the ICO ends, without producing no product</span></p>
+                                <p class="evolution-text margin-bottom-prom hidden-xs">The projects that are on the COINET platform <span class="evolution-text-bold">must accept compliance with the conditions or measures applied in the DAICO.</span> The signing of the documents and the presentation of the smart contract will be on the platform so that investors through the Proof and Source system can vote and guarantee its execution.</p>
+                                <div class="text-align-center">
+                                    <a href="../whitePaper/index-english.html" target="_blank" class="btn-style margin-bottom-prom"> WHITEPAPER </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        	
+            <section id="coinet-team">
+        		<div class="container">
+        			<div class="row margin-top-min margin-bottom-prom">
+        	            <div class="col-xs-12">
+        	            	<div class="text-container-over-behind">
+        	                    <span class="title-behind-team">team</span>
+        	                    <div class="text-container-hover text-container-hover-title">
+        	                         <span class="title-container">THE PILLARS OF{<span class="blue-word">COINET</span>}</span>
+        	                    </div>
+        	                </div>
+        	            </div>
+        	    	</div>
+        	    	<div class="row margin-top-prom hidden-xs equal">
+        	            <div class="col-sm-3 margin-bottom-min coinet-team-container">
+        	            	<div class="row">
+        	            		<div class="col-xs-12">
+        	            			<div class="text-container-over-behind">
+        	                            <div class="text-container-hover text-container-hover-charge">
+        	                                 <span class="charge-style">Founder</span>
+        	                            </div>
+        	                            <div class="text-container-hover text-container-hover-name">
+        	                                 <p class="charge-name">Executive Director</p>
+        	                                 <div class="person-name">
+        	                                 	<p class="margin-bottom-0">Iván</p>
+        	                                 	<p class="margin-top-0">Aránzazu</p>
+        	                                 </div>
+        	                            </div>
+        	                            <div class="text-container-hover text-container-hover-linkedin">
+        	                                <a href="https://www.linkedin.com/in/ivan-aranzazu-a4670050/" target="_blank"><img src="../assets/images/coinet-team/LinkedIn.png" class="img-responsive" alt="LinkedIn"></a> 
+        	                            </div>
+        	                            <img src="../assets/images/coinet-team/ivan@3x.png" alt="Ivan" class="img-responsive width-100 img-employee-big">
+        	                        </div>
+        	            		</div>
+        	            	</div>
+        	            </div>
+        	            <div class="col-sm-3 margin-bottom-min coinet-team-container">
+        	            	<div class="row">
+        	            		<div class="col-xs-12">
+        	            			<div class="text-container-over-behind">
+        	                            <div class="text-container-hover text-container-hover-charge">
+        	                                 <span class="charge-style">Founder</span>
+        	                            </div>
+        	                            <div class="text-container-hover text-container-hover-name">
+        	                                 <p class="charge-name">Director of Operations</p>
+        	                                 <div class="person-name">
+        	                                 	<p class="margin-bottom-0">Fernando</p>
+        	                                 	<p class="margin-top-0">González</p>
+        	                                 </div>
+        	                            </div>
+        	                            <div class="text-container-hover text-container-hover-linkedin">
+        	                                <a href="#"><img src="../assets/images/coinet-team/LinkedIn.png" class="img-responsive" alt="LinkedIn"></a> 
+        	                            </div>
+        	                            <img src="../assets/images/coinet-team/fernando@3x.png" class="img-responsive width-100 img-employee-big" alt="Fernando">
+        	                        </div>
+        	            		</div>
+        	            	</div>
+        	            </div>
+        	            <div class="col-sm-3 margin-bottom-min coinet-team-container">
+        	            	<div class="row">
+        	            		<div class="col-xs-12">
+        	            			<div class="text-container-over-behind">
+        	                            <div class="text-container-hover text-container-hover-charge">
+        	                                 <span class="charge-style">Founder</span>
+        	                            </div>
+        	                            <div class="text-container-hover text-container-hover-name">
+        	                                 <p class="charge-name">Marketing Director</p>
+        	                                 <div class="person-name">
+        	                                 	<p class="margin-bottom-0">Víctor</p>
+        	                                 	<p class="margin-top-0">Portillo</p>
+        	                                 </div>
+        	                            </div>
+        	                            <div class="text-container-hover text-container-hover-linkedin">
+        	                                <a href="#"><img src="../assets/images/coinet-team/LinkedIn.png" class="img-responsive" alt="LinkedIn"></a> 
+        	                            </div>
+        	                            <img src="../assets/images/coinet-team/victor@3x.png" class="img-responsive width-100 img-employee-big" alt="Victor">
+        	                        </div>
+        	            		</div>
+        	            	</div>
+        	            </div>
+        	            <div class="col-sm-3 margin-bottom-min coinet-team-container">
+        	            	<div class="row">
+        	            		<div class="col-xs-12">
+        	            			<div class="text-container-over-behind">
+        	                            <div class="text-container-hover text-container-hover-charge">
+        	                                 <span class="charge-style">Manager</span>
+        	                            </div>
+        	                            <div class="text-container-hover text-container-hover-name">
+        	                                 <p class="charge-name">Project Manager</p>
+        	                                 <div class="person-name">
+        	                                 	<p class="margin-bottom-0">Marines</p>
+        	                                 	<p class="margin-top-0">Monserrat</p>
+        	                                 </div>
+        	                            </div>
+        	                            <div class="text-container-hover text-container-hover-linkedin">
+        	                                <a href="https://www.linkedin.com/in/marines-monserrat-96a91014" target="_blank"><img src="../assets/images/coinet-team/LinkedIn.png" class="img-responsive" alt="LinkedIn"></a> 
+        	                            </div>
+        	                            <img src="../assets/images/coinet-team/marines@3x.png" class="img-responsive width-100 img-employee-big" alt="Marines">
+        	                        </div>
+        	            		</div>
+        	            	</div>
+        	            </div>
+        	        </div>
+                    <div class="row hidden-sm hidden-md hidden-lg margin-bottom-min">
+                        <div class="col-xs-6 coinet-team-container">
+                            <div class="row center-vertical-text motto-container-little">
+                                <div class="col-xs-6 padding-right-0">
+                                    <img src="../assets/images/coinet-team/ivan@3x.png" class="img-responsive width-100 img-employee-little" alt="Ivan">
+                                </div>
+                                <div class="col-xs-6 padding-right-0">
+                                    <div class="employee-name margin-bottom-0">
+                                        <p class="margin-bottom-0">Iván</p>
+                                        <p class="margin-top-0">Aránzazu</p>
+                                    </div>
+                                    <a href="https://www.linkedin.com/in/ivan-aranzazu-a4670050/" target="_blank"><img src="../assets/images/coinet-team/LinkedIn.png" class="img-responsive linkedin-img" alt="LinkedIn"></a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 coinet-team-container">
+                            <div class="row center-vertical-text motto-container-little">
+                                <div class="col-xs-6 padding-right-0">
+                                    <img src="../assets/images/coinet-team/fernando@3x.png" class="img-responsive width-100 img-employee-little" alt="Fernando">
+                                </div>
+                                <div class="col-xs-6 padding-right-0">
+                                    <div class="employee-name margin-bottom-0">
+                                        <p class="margin-bottom-0">Fernando</p>
+                                        <p class="margin-top-0">González</p>
+                                    </div>
+                                    <a href="#"><img src="../assets/images/coinet-team/LinkedIn.png" class="img-responsive linkedin-img" alt="LinkedIn"></a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row hidden-sm hidden-md hidden-lg">
+                        <div class="col-xs-6 coinet-team-container">
+                            <div class="row center-vertical-text motto-container-little">
+                                <div class="col-xs-6 padding-right-0">
+                                    <img src="../assets/images/coinet-team/victor@3x.png" class="img-responsive width-100 img-employee-little" alt="Victor">
+                                </div>
+                                <div class="col-xs-6 padding-right-0">
+                                    <div class="employee-name margin-bottom-0">
+                                        <p class="margin-bottom-0">Víctor</p>
+                                        <p class="margin-top-0">Portillo</p>
+                                    </div>
+                                    <a href="#"><img src="../assets/images/coinet-team/LinkedIn.png" class="img-responsive linkedin-img" alt="LinkedIn"></a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 coinet-team-container">
+                            <div class="row center-vertical-text motto-container-little">
+                                <div class="col-xs-6 padding-right-0">
+                                    <img src="../assets/images/coinet-team/marines@3x.png" class="img-responsive width-100 img-employee-little" alt="Marines">
+                                </div>
+                                <div class="col-xs-6 padding-right-0">
+                                    <div class="employee-name margin-bottom-0">
+                                        <p class="margin-bottom-0">Marines</p>
+                                        <p class="margin-top-0">Monserrat</p>
+                                    </div>
+                                    <a href="https://www.linkedin.com/in/marines-monserrat-96a91014" target="_blank"><img src="../assets/images/coinet-team/LinkedIn.png" class="img-responsive linkedin-img" alt="LinkedIn"></a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        	        <div class="row margin-top-min margin-bottom-prom">
+        	            <div class="col-xs-6 col-sm-4 col-md-3 coinet-team-container margin-top-min">
+        	            	<div class="row center-vertical-text motto-container-little">
+        	            		<div class="col-xs-6 col-sm-6 padding-right-0">
+        	            			<img src="../assets/images/coinet-team/lorena@3x.png" class="img-responsive width-100 img-employee-little" alt="Lorena">
+        	            		</div>
+        	            		<div class="col-xs-6 col-sm-6 padding-right-0">
+        	        				<p class="employee-charge hidden-xs">Business Development</p>
+        	        				<div class="employee-name margin-bottom-0">
+        	        					<p class="margin-bottom-0">Lorena</p>
+        	        					<p class="margin-top-0">Mejias</p>
+        	        				</div>
+        	        				<a href="https://www.linkedin.com/in/lorena-mejias-rodriguez-19753514a/" target="_blank"><img src="../assets/images/coinet-team/LinkedIn.png" class="img-responsive linkedin-img" alt="LinkedIn"></a> 
+        	            		</div>
+        	            	</div>
+        	            </div>
+        	            <div class="col-xs-6 col-sm-4 col-md-3 coinet-team-container margin-top-min">
+        	            	<div class="row center-vertical-text motto-container-little">
+        	            		<div class="col-xs-6 col-sm-6 padding-right-0">
+        	            			<img src="../assets/images/coinet-team/jennifer@3x.png" class="img-responsive width-100 img-employee-little" alt="Jennifer">
+        	            		</div>
+        	            		<div class="col-xs-6 col-sm-6 padding-right-0">
+        	        				<p class="employee-charge hidden-xs">Content Generator</p>
+        	        				<div class="employee-name margin-bottom-0">
+        	        					<p class="margin-bottom-0">Jennifer</p>
+        	        					<p class="margin-top-0">Galindo</p>
+        	        				</div>
+        	        				<a href="https://www.linkedin.com/in/jennifer-galindo-63800215b/" target="_blank"><img src="../assets/images/coinet-team/LinkedIn.png" class="img-responsive linkedin-img" alt="LinkedIn"></a> 
+        	            		</div>
+        	            	</div>
+        	            </div>
+        	            <div class="col-xs-6 col-sm-4 col-md-3 coinet-team-container margin-top-min">
+        	            	<div class="row center-vertical-text motto-container-little">
+        	            		<div class="col-xs-6 col-sm-6 padding-right-0">
+        	            			<img src="../assets/images/coinet-team/rayvis@3x.png" class="img-responsive width-100 img-employee-little" alt="Rayvis">
+        	            		</div>
+        	            		<div class="col-xs-6 col-sm-6 padding-right-0">
+        	        				<p class="employee-charge hidden-xs">Finanial Director(CFO)</p>
+        	        				<div class="employee-name margin-bottom-0">
+        	        					<p class="margin-bottom-0">Rayvis</p>
+        	        					<p class="margin-top-0">Rojas</p>
+        	        				</div>
+        	        				<a href="https://www.linkedin.com/in/rayvis-rojas-galarraga-108a59153/" target="_blank"><img src="../assets/images/coinet-team/LinkedIn.png" class="img-responsive linkedin-img" alt="LinkedIn"></a> 
+        	            		</div>
+        	            	</div>
+        	            </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 coinet-team-container margin-top-min">
+                            <div class="row center-vertical-text motto-container-little">
+                                <div class="col-xs-6 col-sm-6 padding-right-0">
+                                    <img src="../assets/images/coinet-team/carolyn@3x.png" class="img-responsive width-100 img-employee-little" alt="Carolyn">
+                                </div>
+                                <div class="col-xs-6 col-sm-6 padding-right-0">
+                                    <p class="employee-charge hidden-xs">Community Manager</p>
+                                    <div class="employee-name margin-bottom-0">
+                                        <p class="margin-bottom-0">Carolyn</p>
+                                        <p class="margin-top-0">Castillo</p>
+                                    </div>
+                                    <a href="https://www.linkedin.com/in/carolyn-castillo-906804146/" target="_blank"><img src="../assets/images/coinet-team/LinkedIn.png" class="img-responsive linkedin-img" alt="LinkedIn"></a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 coinet-team-container margin-top-min">
+                            <div class="row center-vertical-text motto-container-little">
+                                <div class="col-xs-6 col-sm-6 padding-right-0">
+                                    <img src="../assets/images/coinet-team/ricardo@3x.png" class="img-responsive width-100 img-employee-little" alt="Ricardo">
+                                </div>
+                                <div class="col-xs-6 col-sm-6 padding-right-0">
+                                    <p class="employee-charge hidden-xs">Smart Contract Developer</p>
+                                    <div class="employee-name margin-bottom-0">
+                                        <p class="margin-bottom-0">Ricardo</p>
+                                        <p class="margin-top-0">Di Zio</p>
+                                    </div>
+                                    <a href="https://www.linkedin.com/in/ricardo-di-zio-ab863ab9/" target="_blank"><img src="../assets/images/coinet-team/LinkedIn.png" class="img-responsive linkedin-img" alt="LinkedIn"></a> 
+                                </div>
+                            </div>
+                        </div>
+        	            <div class="col-xs-6 col-sm-4 col-md-3 coinet-team-container margin-top-min">
+                            <div class="row center-vertical-text motto-container-little">
+                                <div class="col-xs-6 col-sm-6 padding-right-0">
+                                    <img src="../assets/images/coinet-team/antonio@3x.png" class="img-responsive width-100 img-employee-little" alt="Antonio">
+                                </div>
+                                <div class="col-xs-6 col-sm-6 padding-right-0">
+                                    <p class="employee-charge hidden-xs">Blockchain Engineer</p>
+                                    <div class="employee-name margin-bottom-0">
+                                        <p class="margin-bottom-0">Antonio</p>
+                                        <p class="margin-top-0">Rueda</p>
+                                    </div>
+                                    <a href="https://www.linkedin.com/in/antonioruedatoicen/" target="_blank"><img src="../assets/images/coinet-team/LinkedIn.png" class="img-responsive linkedin-img" alt="LinkedIn"></a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 coinet-team-container margin-top-min">
+                            <div class="row center-vertical-text motto-container-little">
+                                <div class="col-xs-6 col-sm-6 padding-right-0">
+                                    <img src="../assets/images/coinet-team/jesus@3x.png" class="img-responsive width-100 img-employee-little" alt="Jesus">
+                                </div>
+                                <div class="col-xs-6 col-sm-6 padding-right-0">
+                                    <p class="employee-charge hidden-xs">Developer</p>
+                                    <div class="employee-name margin-bottom-0">
+                                        <p class="margin-bottom-0">Jesús</p>
+                                        <p class="margin-top-0">Cibeira</p>
+                                    </div>
+                                    <a href="https://www.linkedin.com/in/jesus-cibeira-11127b154/" target="_blank"><img src="../assets/images/coinet-team/LinkedIn.png" class="img-responsive linkedin-img" alt="LinkedIn"></a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 coinet-team-container margin-top-min">
+                            <div class="row center-vertical-text motto-container-little">
+                                <div class="col-xs-6 col-sm-6 padding-right-0">
+                                    <img src="../assets/images/coinet-team/eduardo@3x.png" class="img-responsive width-100 img-employee-little" alt="Eduardo">
+                                </div>
+                                <div class="col-xs-6 col-sm-6 padding-right-0">
+                                    <p class="employee-charge hidden-xs">Developer</p>
+                                    <div class="employee-name margin-bottom-0">
+                                        <p class="margin-bottom-0">Eduardo</p>
+                                        <p class="margin-top-0">Rueda</p>
+                                    </div>
+                                    <a href="#"><img src="../assets/images/coinet-team/LinkedIn.png" class="img-responsive linkedin-img" alt="LinkedIn"></a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 coinet-team-container margin-top-min">
+                            <div class="row center-vertical-text motto-container-little">
+                                <div class="col-xs-6 col-sm-6 padding-right-0">
+                                    <img src="../assets/images/coinet-team/juan@3x.jpg" class="img-responsive width-100 img-employee-little" alt="Juan">
+                                </div>
+                                <div class="col-xs-6 col-sm-6 padding-right-0">
+                                    <p class="employee-charge hidden-xs">Developer</p>
+                                    <div class="employee-name margin-bottom-0">
+                                        <p class="margin-bottom-0">Juan Carlos</p>
+                                        <p class="margin-top-0">López</p>
+                                    </div>
+                                    <a href="https://www.linkedin.com/in/jlopez1967/"><img src="../assets/images/coinet-team/LinkedIn.png" class="img-responsive linkedin-img" alt="LinkedIn"></a> 
+                                </div>
+                            </div>
+                        </div>
+        	        </div>
+
+                    <div class="row margin-top-max">
+                        <div class="col-xs-12">
+                            <div class="text-container-over-behind">
+                                <span class="title-behind-team">for a future</span>
+                                <div class="text-container-hover text-container-hover-title">
+                                     <span class="title-container">AFFILIATES</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row equal margin-top-prom">
+                        <a class="col-xs-6 col-sm-4 col-md-2 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 margin-bottom-min" target="_blank" href="https://www.4geeksacademy.co/es/venezuela/">
+                            <div class="white-box center-vertical-text">
+                                <img class="img-responsive center" src="../assets/images/coinet-foundation/logo-4-geeks-negro@3x.png" alt="4Geeks Logo">
+                            </div>
+                        </a>
+                        <a class="col-xs-6 col-sm-4 col-md-2 margin-bottom-min" target="_blank" href="http://thechain.tech/">
+                            <div class="white-box center-vertical-text"> 
+                                 <img class="img-responsive center" src="../assets/images/coinet-foundation/the-chain.png" alt="The Chain Logo">
+                            </div>
+                        </a>
+                        <a class="col-xs-6 col-sm-4 col-md-2 col-xs-offset-3 col-sm-offset-0 margin-bottom-min" target="_blank" href="https://www.edge196.com/">
+                            <div class="white-box center-vertical-text">
+                                <img class="img-responsive center" src="../assets/images/coinet-foundation/EDGE196.jpg" alt="EDGE196 Logo">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="row equal margin-bottom-prom">
+                        <a class="hidden-xs hidden-sm col-md-2 col-md-offset-3 text-center" target="_blank" href="https://www.4geeksacademy.co/es/venezuela/"> 
+                            <p class="company-name-ico"> 4Geeks Academy</p>
+                        </a>
+                        <a class="hidden-xs hidden-sm col-md-2 text-center" target="_blank" href="http://thechain.tech/"> 
+                            <p class="company-name-ico"> The Chain</p>
+                        </a>
+                        <a class="hidden-xs hidden-sm col-md-2 text-center" target="_blank" href="https://www.edge196.com/"> 
+                            <p class="company-name-ico"> EDGE196</p>
+                        </a>
+                    </div>
+        		</div>
+        	</section>
+
+            <section id="coinet-ico-roadmap">
+                <div class="container">
+                    <div class="row row-centered margin-top-prom margin-bottom-prom">
+                        <div class="col-xs-12">
+                            <span class="title-container">ROADMAP {<span class="blue-word">COINET</span>}</span>    
+                        </div>
+                    </div>
+                    <div class="phases margin-bottom-prom">
+                        <div class="phase1">
+                            <div class="row equal center-vertical-text margin-bottom-min">
+                                <div class="col-md-3 col-sm-4 col-xs-12 col-md-offset-2 col-sm-offset-1 col-xs-offset-0 text-align-right month-container">
+                                    <a class="date-road" data-toggle="modal" href="#september-17">September 2017</a>
+                                </div>
+                                <div class="col-md-2 col-sm-2 hidden-xs text-align-center">
+                                    <div class="circle-date center">
+                                        18
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 hidden-xs">
+                                    <div class="event-description-container">
+                                        <span class="event-description">Initial development of the business concept.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text margin-bottom-min">
+                                <div class="col-md-3 col-sm-4 hidden-xs col-md-offset-2 col-sm-offset-1">
+                                    <div class="event-description-container">
+                                        <span class="event-description">Platform evaluation where the token will be created.</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-2 hidden-xs text-align-center">
+                                    <div class="circle-date center">
+                                        14
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-12 month-container">
+                                    <a class="date-road" data-toggle="modal" href="#december-17">December 2017</a>
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text margin-bottom-min">
+                                <div class="col-md-3 col-sm-4 col-xs-12 col-md-offset-2 col-sm-offset-1 col-xs-offset-0 text-align-right month-container">
+                                    <a class="date-road" data-toggle="modal" href="#february-18">February 2018</a>
+                                </div>
+                                <div class="col-md-2 col-sm-2 hidden-xs text-align-center">
+                                    <div class="circle-date center">
+                                        14
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 hidden-xs">
+                                    <div class="event-description-container">
+                                        <span class="event-description">Platform Development</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text margin-bottom-min">
+                                <div class="col-md-3 col-sm-4 hidden-xs col-md-offset-2 col-sm-offset-1">
+                                    <div class="event-description-container">
+                                        <span class="event-description">White Paper Creation.</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-2 hidden-xs">
+                                    <div class="circle-date center">
+                                        30
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-12 month-container">
+                                    <a class="date-road" data-toggle="modal" href="#march-18">March 2018</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="phase2">
+                            <div class="row equal center-vertical-text margin-bottom-min">
+                                <div class="col-md-3 col-sm-4 col-xs-12 col-md-offset-2 col-sm-offset-1 col-xs-offset-0 text-align-right month-container">
+                                    <a class="date-road" data-toggle="modal" href="#may-18">May 2018</a>
+                                </div>
+                                <div class="col-md-2 col-sm-2 hidden-xs text-align-center">
+                                    <div class="circle-date blue-word background-color-white-event center">
+                                        10
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 hidden-xs">
+                                    <div class="event-description-container background-color-white-event">
+                                        <span class="event-description color-grey-event-description">Creation of Token and Smart Contract</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text margin-bottom-min hidden-xs">
+                                <div class="col-md-3 col-sm-4 col-md-offset-2 col-sm-offset-1 text-align-right">
+                                </div>
+                                <div class="col-md-2 col-sm-2 text-align-center">
+                                </div>
+                                <div class="col-md-3 col-sm-4">
+                                    <div class="event-description-container background-color-white-event">
+                                        <span class="event-description color-grey-event-description">Development of ICO marketing and promotion plan</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text margin-bottom-min hidden-xs">
+                                <div class="col-md-3 col-sm-4 col-md-offset-2 col-sm-offset-1 text-align-right">
+                                </div>
+                                <div class="col-md-2 col-sm-2 text-align-center">
+                                </div>
+                                <div class="col-md-3 col-sm-4">
+                                    <div class="event-description-container background-color-white-event">
+                                        <span class="event-description color-grey-event-description">WhiteList Development.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="phase3">
+                            <div class="row equal center-vertical-text margin-bottom-min">
+                                <div class="col-md-3 col-sm-4 hidden-xs col-md-offset-2 col-sm-offset-1">
+                                    <div class="event-description-container background-color-grey-event">
+                                        <span class="event-description">ICO Beginning.</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-2 hidden-xs">
+                                    <div class="circle-date background-color-grey-date-2 center">
+                                        22
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-12 month-container">
+                                    <a class="date-road blue-word" data-toggle="modal" href="#june-18">JUNE 2018</a>
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text margin-bottom-min">
+                                <div class="col-md-3 col-sm-4 col-xs-12 col-md-offset-2 col-sm-offset-1 col-xs-offset-0 text-align-right month-container">
+                                    <a class="date-road" data-toggle="modal" href="#november-18">NOVEMBER 2018</a>
+                                </div>
+                                <div class="col-md-2 col-sm-2 hidden-xs">
+                                    <div class="circle-date background-color-grey-date-2 center">
+                                        28
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 hidden-xs">
+                                    <div class="event-description-container background-color-grey-event">
+                                        <span class="event-description"> ICO Ending.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text margin-bottom-min">
+                                <div class="col-md-3 col-sm-4 hidden-xs col-md-offset-2 col-sm-offset-1">
+                                    <div class="event-description-container background-color-grey-event">
+                                        <span class="event-description">Negotiations to be listed in major exchanges.</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-2 hidden-xs">
+                                    <div class="circle-date background-color-grey-date-2 center">
+                                        06
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-12 month-container">
+                                    <a class="date-road" data-toggle="modal" href="#december-18">DECEMBER 2018</a>
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text margin-bottom-min hidden-xs">
+                                <div class="col-md-3 col-sm-4 col-md-offset-2 col-sm-offset-1">
+                                    <div class="event-description-container background-color-grey-event">
+                                        <span class="event-description"> Development of marketing plan and promotion of potential projects.</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-2">
+                                </div>
+                                <div class="col-md-3 col-sm-4">
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text margin-bottom-min hidden-xs">
+                                <div class="col-md-3 col-sm-4 col-md-offset-2 col-sm-offset-1">
+                                    <div class="event-description-container background-color-grey-event">
+                                        <span class="event-description">COT Coin listed on Stellar Dex.</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-2">
+                                </div>
+                                <div class="col-md-3 col-sm-4">
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text margin-bottom-min hidden-xs">
+                                <div class="col-md-3 col-sm-4 col-md-offset-2 col-sm-offset-1">
+                                    <div class="event-description-container background-color-grey-event">
+                                        <span class="event-description">Development of recruitment process and training of new personnel.</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-2">
+                                </div>
+                                <div class="col-md-3 col-sm-4">
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text margin-bottom-min hidden-xs">
+                                <div class="col-md-3 col-sm-4 col-md-offset-2 col-sm-offset-1">
+                                    <div class="event-description-container background-color-grey-event">
+                                        <span class="event-description">Assesment of potential projects.</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-2">
+                                </div>
+                                <div class="col-md-3 col-sm-4">
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text margin-bottom-min">
+                                <div class="col-md-3 col-sm-4 col-xs-12 col-md-offset-2 col-sm-offset-1 col-xs-offset-0 text-align-right month-container">
+                                    <a class="date-road" data-toggle="modal" href="#january-19">JANUARY 2019</a>
+                                </div>
+                                <div class="col-md-2 col-sm-2 hidden-xs">
+                                    <div class="circle-date background-color-grey-date-2 center">
+                                        09
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 hidden-xs">
+                                    <div class="event-description-container background-color-grey-event">
+                                        <span class="event-description">Development of marketing plan and platform promotion.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text margin-bottom-min">
+                                <div class="col-md-3 col-sm-4 hidden-xs col-md-offset-2 col-sm-offset-1">
+                                    <div class="event-description-container background-color-grey-event">
+                                        <span class="event-description">Presentation of CFP graphical interface.</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-2 hidden-xs">
+                                    <div class="circle-date background-color-grey-date-2 center">
+                                        12
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-12 month-container">
+                                    <a class="date-road" data-toggle="modal" href="#february-19">FEBRUARY 2019</a>
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text margin-bottom-min">
+                                <div class="col-md-3 col-sm-4 col-xs-12 col-md-offset-2 col-sm-offset-1 col-xs-offset-0 text-align-right month-container">
+                                    <a class="date-road" data-toggle="modal" href="#march-19">MARCH 2019</a>
+                                </div>
+                                <div class="col-md-2 col-sm-2 hidden-xs">
+                                    <div class="circle-date background-color-grey-date-2 center">
+                                        30
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 hidden-xs">
+                                    <div class="event-description-container background-color-grey-event">
+                                        <span class="event-description">Beta release of Coin Financing Platform</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text margin-bottom-min hidden-xs">
+                                <div class="col-md-3 col-sm-4 col-md-offset-2 col-sm-offset-1 text-align-right">
+                                </div>
+                                <div class="col-md-2 col-sm-2">
+                                </div>
+                                <div class="col-md-3 col-sm-4">
+                                    <div class="event-description-container background-color-grey-event">
+                                        <span class="event-description">Presentation of 5 projects to be financed.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text margin-bottom-min">
+                                <div class="col-md-3 col-sm-4 hidden-xs col-md-offset-2 col-sm-offset-1">
+                                    <div class="event-description-container background-color-grey-event">
+                                        <span class="event-description">Office Opening in the USA.</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-2 hidden-xs">
+                                    <div class="circle-date background-color-grey-date-2 center">
+                                        20
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-12 month-container">
+                                    <a class="date-road" data-toggle="modal" href="#april-19">APRIL 2019</a>
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text margin-bottom-min hidden-xs">
+                                <div class="col-md-3 col-sm-4 col-md-offset-2 col-sm-offset-1">
+                                    <div class="event-description-container background-color-grey-event">
+                                        <span class="event-description">Start of development for mobile phones.</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-2">
+                                </div>
+                                <div class="col-md-3 col-sm-4">
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text margin-bottom-min">
+                                <div class="col-md-3 col-sm-4 col-xs-12 col-md-offset-2 col-sm-offset-1 text-align-right month-container">
+                                    <a class="date-road" data-toggle="modal" href="#august-19">AUGUST 2019</a>
+                                </div>
+                                <div class="col-md-2 col-sm-2 hidden-xs">
+                                    <div class="circle-date background-color-grey-date-2 center">
+                                        02
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 hidden-xs">
+                                    <div class="event-description-container background-color-grey-event">
+                                        <span class="event-description">Platform presententation for mobile phones.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row equal center-vertical-text">
+                                <div class="col-md-3 col-sm-4 hidden-xs col-md-offset-2 col-sm-offset-1">
+                                    <div class="event-description-container background-color-grey-event">
+                                        <span class="event-description">First DAICOS of projects created in the CFP platform.</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-2 hidden-xs">
+                                    <div class="circle-date background-color-grey-date-2 center">
+                                        15
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-12 month-container month-no-margin">
+                                    <a class="date-road" data-toggle="modal" href="#september-19">SEPTEMBER 2019</a>
+                                </div>1
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="modals-advantages">
+            <div class="modal fade modal-advantages" id="evaluation-and-advice" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">Evaluation and consultation of potential projects without cost</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <p class="modal-advantages-descript">A multidisciplinary team evaluates your project, in case of not fulfilling the requirements, the Coinet team will not abandon you, we will give you the result of the evaluation so that you can cover the deficiencies found.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-advantages" id="p2p" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">P2P Platform</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <p class="modal-advantages-descript"> CFP allows project owners and investors to conduct transactions without intermediaries.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-advantages" id="proof-and-source" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">Proof and Source System</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <p class="modal-advantages-descript">CFP allows through this system that the investor community is the only one that have the decision to approve based on voting by check of progress tests and fulfillment of goals.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-advantages" id="protection-and-security" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">Security and Protection</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <p class="modal-advantages-descript">The Stellar Network ensures the total registration of transactions without manipulation by third parties and protects the movements of users within the CFP. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-advantages" id="high-low" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">High Speed at low cost</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <p class="modal-advantages-descript">Being based on the Stellar platform, we guarantee fast transactions with very competitive commissions in the crypto market.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-advantages" id="bifrost" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">Stellar's Bifrost</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <p class="modal-advantages-descript">It allows to create a escrow agreement or  guarantee deposit of the funds obtained in the currency of origin and until the conditions are not fulfilled in the smart contract, these funds will not be changed to COT Coins and delivered to the suppliers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="modals-month">
+            <div class="modal fade modal-month" id="september-17" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">September 2017</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">18</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">Initial development of the business concept.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-month" id="december-17" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">December 2017</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">14</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">Platform evaluation where the token will be created.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-month" id="february-18" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">February 2018</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">14</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">Platform development.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-month" id="march-18" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">March 2018</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">30</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description"> White Paper Creation.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-month" id="may-18" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">May 2018</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">10</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">Creation of Token and Smart Contract.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">10</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">Development of marketing and promotion plan for ICO.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">10</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description"> WhiteList Development.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-month" id="june-18" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">June 2018</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">22</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">ICO Beginning.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-month" id="november-18" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">November 2018</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">28</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description"> ICO Ending.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-month" id="december-18" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">December 2018</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">06</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">Negotiations to be listed in major exchanges.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">06</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">Development of marketing plan and promotion of potential projects.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">06</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">COT Coin listed on Stellar Dex.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">06</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">Development of recruitment process and training of new personnel.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">06</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">Assesment of potential projects.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-month" id="january-19" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">January 2019</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">09</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">Development of marketing plan and platform promotion.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-month" id="february-19" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">February 2019</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">12</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">Presentation of CFP graphical interface.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-month" id="march-19" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">March 2019</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">30</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">Launch of Beta version of Coinet Financing Platform.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">30</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">Presentation of 5 projects to be financed.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-month" id="april-19" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">April 2019</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">20</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">Office Opening in the USA.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">20</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">Start of development for mobile phones.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-month" id="august-19" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">August 2019</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">02</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">Platform presentation for mobile phones.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-month" id="september-19" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png" alt="Close"></button>
+                            <h4 class="modal-title">September 2019</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xs-2 padding-right-0">
+                                    <div class="circle-number">15</div>
+                                </div>
+                                <div class="col-xs-10 padding-left-0">
+                                    <p class="modal-month-description">First DAICOS of projects created in the CFP platform.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade login-register" id="modal-register" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png"></button>
+                        <div class="text-container margin-bottom-prom">
+                            <span class="title-behind-login-register">coinet</span>
+                            <div class="text-container-hover text-container-hover-register">
+                                <span class="title-login-register">SIGN IN</span>
+                            </div>
+                        </div>
+                        <hr class="line-article text-align-left margin-left-0 line-modal-h">
+                    </div>
+                    <form id="coinet_form_register" enctype="multipart/form-data" method="post">
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="picture-container">
+                                        <div class="picture">
+                                            <img src="../assets/images/general/default-avatar.png" class="picture-src" id="picture_preview">
+                                        </div>
+                                        <label class="modal-label">Profile Picture</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <label class="modal-label color-red">* Required field</label>
+                                    <label class="modal-label margin-top-fix">* Full Name</label>
+                                    <input class="margin-top-fix" type="text" name="name" placeholder="First and Last name" autocomplete="off">
+                                    <label class="modal-label">* E-mail</label>
+                                    <input class="margin-top-fix" type="email" name="email" placeholder="E-mail" autocomplete="off">
+                                    <label class="modal-label">* Password (min 8 characters)</label>
+                                    <input id="password" class="margin-top-fix" type="password" name="password" placeholder="Password">
+                                    <label class="modal-label">* Repeat password</label>
+                                    <input class="margin-top-fix" type="password" name="check_password" placeholder="Confirm password">
+                                    <input type="file" name="profile_img" id="picture_hidden" class="hidden">
+                                    <label class="container-check modal-label margin-top-min">
+                                        * I accept terms and conditions
+                                      <input type="checkbox" name="terms">
+                                      <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6 col-md-offset-4 text-align-left">
+                                     <p class="modal-terms">By submitting this form and the data of the future form, I confirm that I accept the terms and conditions, disclaimers, cookies, correspondence by email and privacy policies available in <a class="blue-word" href="legalNote/index-english.html" target="_blank">https://coinet.network/legal_note</a>  and no content is intended or will be considered in any way financial advice.</p>
+                                </div>
+                                <div class="col-xs-12 col-md-2">
+                                    <button type="submit" class="btn btn-airdrop btn-modal-style">SIGN UP</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade login-register" id="modal-login" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png"></button>
+                       <div class="text-container margin-bottom-prom">
+                            <span class="title-behind-login-register">coinet</span>
+                            <div class="text-container-hover text-container-hover-login">
+                                <span class="title-login-register">LOGIN</span>
+                            </div>
+                        </div>
+                        <hr class="line-article text-align-left margin-left-0 line-modal-h">
+                    </div>
+                    <form id="coinet_form_login" action="../dashboard/index-english.html" method="post">
+                        <div class="modal-body">
+                            <label class="modal-label">E-mail</label>
+                            <input class="margin-top-fix" name="email" type="email" placeholder="E-mail" autocomplete="off">
+                            <label class="modal-label">Password</label>
+                            <input class="margin-top-fix" name="password" type="password" placeholder="Password">
+                            <div class="text-align-right">
+                              <a class="recovery_link" href="#modal-password_recovery" data-toggle="modal">Forgot your password?</a>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                           <button type="submit" class="btn btn-airdrop btn-modal-style">SEND</button>
+                        </div>
+                    </form>
+               </div>
+            </div>
+        </div>
+
+        <div class="modal fade login-register modal-child" id="modal-password_recovery" data-modal-parent="#modal-login" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png"></button>
+                       <div class="text-container margin-bottom-prom">
+                            <span class="title-behind-login-register">coinet</span>
+                            <div class="text-container-hover text-container-hover-recovery">
+                                <span class="title-login-register">Password Recovery</span>
+                            </div>
+                        </div>
+                        <hr class="line-article text-align-left margin-left-0 line-modal-h">
+                    </div>
+                    <form id="coinet_form_recovery" method="post">
+                        <div class="modal-body">
+                           <label class="modal-label">E-mail</label>
+                           <input class="margin-top-fix" name="email" type="email" placeholder="E-mail" autocomplete="off">
+                        </div>
+                        <div class="modal-footer">
+                           <button type="submit" class="btn btn-airdrop btn-modal-style">SEND KEY</button>
+                        </div>
+                    </form>
+               </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container margin-top-prom margin-bottom-prom">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <h2 class="margin-bottom-prom margin-top-prom"> Contact Information </h2>
+                        <div class="row"> 
+                            <div class="col-xs-1">
+                                <img class="contact-icons" src="../assets/images/footer/direccion-ico.png" alt="Address">
+                            </div>
+                            <div class="col-xs-10">
+                                <div>
+                                    <p class="margin-bottom-0"> Address </p>
+                                    <p class="margin-top-0"> Calle Pascuale Giorgio Edificio Principal 1 Piso 2 Oficina 2-1 Urb Los Ruices Caracas Zona Postal </p>
+                                </div>          
+                            </div>
+                        </div>
+                        <div class="row"> 
+                            <div class="col-xs-1">
+                                <img class="contact-icons" src="../assets/images/footer/horario-ico.png" alt="Hours">
+                            </div>
+                            <div class="col-xs-10">
+                                <div>  
+                                    <p class="margin-bottom-0"> Service Hours:</p>
+                                    <p class="margin-top-0"> 09:00 -16:30 (GMT-4)</p>
+                                </div>               
+                            </div>
+                        </div>       
+                        <div class="row"> 
+                            <div class="col-xs-1">
+                                <img class="contact-icons" src="../assets/images/footer/telefono-ico.png" alt="Phone number">
+                            </div>
+                            <div class="col-xs-10">
+                                <div>  
+                                    <p class="margin-bottom-0"> Phone number: </p>
+                                    <p class="margin-top-0"> +58 212-5266501 </p>
+                                </div>            
+                            </div>
+                        </div>                
+                        <div class="row"> 
+                            <div class="col-xs-1">
+                                <img class="contact-icons" src="../assets/images/footer/e-mail-ico.png" alt="E-mail">
+                            </div>
+                            <div class="col-xs-10">
+                                <div>  
+                                    <p class="margin-bottom-0"> E-mail: </p>
+                                    <p class="margin-top-0"> info@coinet.network </p>
+                                </div>         
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-md-4 hidden-sm hidden-xs">
+                        <h2 class="margin-bottom-prom margin-top-prom"> Susbscribe to Coinet </h2>
+                        <p> 
+                            Do you want to launch an ICO?<br> Do you need advice on cryptocurrency trading?<br> Leave us your email and we will get in touch with you soon.
+                        </p>
+                        <form id="form-footer" method="post">
+                            <input class="margin-top-min margin-bottom-min width-100" type="email" name="email" placeholder="coinet@email.com" autocomplete="off" required maxlength="50">
+                            <input type="hidden" name="subscription" value="onFooter">
+                            <div class="margin-top-min margin-bottom-prom">
+                                <button class="btn-style float-right"> Subscribe </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 margin-bottom-prom">
+                        <h2 class="margin-bottom-prom margin-top-prom"> Follow us on </h2>
+                        <div class="social-media-div">
+                            <a href="http://t.me/Coinetplatform" target="_blank"><img src="../assets/images/footer/telegram-ico.png" class="img-responsive" alt="Telegram"></a>
+                        </div>
+                        <div class="social-media-div">
+                            <a href="https://www.facebook.com/coinet.network/" target="_blank"><img src="../assets/images/footer/facebook-ico.png" class="img-responsive" alt="Facebook"></a>
+                        </div>
+                        <div class="social-media-div">
+                            <a href="https://www.instagram.com/grupocoinet/" target="_blank"><img src="../assets/images/footer/instagram-ico.png" class="img-responsive" alt="Instagram"></a>
+                        </div>
+                        <div class="social-media-div">
+                            <a href="https://twitter.com/grupocoinet?lang=en" target="_blank"><img src="../assets/images/footer/twitter-ico.png" class="img-responsive" alt="Twitter"></a>
+                        </div>
+                        <div class="social-media-div">
+                            <a href="#"><img src="../assets/images/footer/slack.png" class="img-responsive" alt="Slack"></a>
+                        </div>
+                        <div class="social-media-div">
+                            <a href="https://github.com/coinet" target="_blank"><img src="../assets/images/footer/github.png" class="img-responsive" alt="Github"></a>
+                        </div>
+                        <div class="social-media-div">
+                            <a href="https://bitcointalk.org/index.php?topic=3306120.0" target="_blank"><img src="../assets/images/footer/bitcointalk-ico.png" class="img-responsive" alt="Bitcointalk"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright text-align-center">
+                <div class="container-fluid">
+                    <h5 class="copyright_text">
+                        <span> Copyright &copy; 2018 Grupo Coinet 134, C.A.</span>
+                        <br>
+                        <span> RIF J410300418 </span> 
+                    </h5> 
+                </div>
+            </div>
+        </div>
+
+        <!--SCRIPTS-->
+        <script src="../assets/js/jquery/jquery.min.js"></script>
+        <script src="../assets/js/bootstrap-formhelpers.min.js"></script>
+        <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+        <script src="../assets/js/bootstrap/datatables/datatables.min.js"></script>
+        <script src="../assets/js/bootstrap/datatables/dataTables.responsive.min.js"></script>
+        <script src="../assets/js/bootstrap/jquery.validate.min.js"></script>
+        <script src="../assets/js/coinet/chat-admin.js"></script>
+        <script src="../assets/js/coinet/chat-user.js"></script>
+        <script src="../assets/js/coinet/main.js"></script>
+        <script src="../assets/js/jquery-easing/jquery.easing.compatibility.js"></script>
+        <script src="../assets/js/jquery-easing/jquery.easing.min.js"></script>
+        <!--SCRIPTS END-->
+
+    </body>
+</html>
